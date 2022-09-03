@@ -1,0 +1,69 @@
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+   }
+.navbar li:hover {
+    background-color: #E59866;
+    color: black;
+}
+.bodyIn{
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.recursosH2{
+    margin-top: 75px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.descripcion{
+    margin-left: 100px;
+}
+.h2In{
+    font-size: xx-large;
+}
+.pIn{
+    font-size: x-large;
+}
+.recursosH{
+    flex-direction: column;
+}
+
+.servicio{
+    margin-top: 50px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.descInicio{
+    text-align: center;
+    margin-top: 150px;
+}
+.descInicio p{
+    margin-top: 50px;
+}
+
+.contacto{
+    margin-top: 25px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+input:invalid, textarea:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+
+input:valid, textarea:valid{
+    box-shadow: 0 0 5px 1px green;
+}
+
+.botonescuchar{
+    position: absolute; 
+    right: 0;
+    font-size:24px;
+}

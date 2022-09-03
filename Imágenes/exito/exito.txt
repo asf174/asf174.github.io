@@ -1,0 +1,20 @@
+FitnessWorkout
+
+Aplicación móvil que permite disponer de un gimnasio virtual en cualquier parte del mundo, en donde se pueden realizar diferentes actividades deportivas tan solo con tu smartphone.
+Permite a los usuarios conectarse a distancia con un monitor que recogerá la información de los resultados de las actividades, así como la ubicación. Además, por si no fuera poco
+puedes escoger realizar tus actividades solo o en grupos, con tus amigos!
+
+
+AutomateClassroom
+
+Diseño software y hardware de un complejo de innovaciones y técnicas para la mejora y personalización de los entornos universitarios. Incluye:
+	- Reconocimiento de las interacciones del profesor con la pizarra.
+	- Sistema de guía a los alumnos en el campús.
+	- Tarjeta electrónica inteligente automatizada para todos los servicios de la Universidad.
+	- Aprendizaje automático en la utilización de las instalaciones deportivas.
+
+
+CloudAsService
+
+Diseño de una infraestructura de Cloud para la empresa CubiceQuadra para la gestión de sus mas de 15000 empleados en la nube. Incorpora sofisticados mecanismos
+de orqueszación y automazación para un rápido despliegue. Además, incorpora el ERP en la propia nube, para unificar las aplicaciones utilizadas.

@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Estilos.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="Voces.js"></script>
+
+
+    <title> FitnessWorkOut: Encuesta</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid ">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="Index.html">FitnessWorkOut</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Casos de exito.html">Casos de éxito</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Encuesta de satisfaccion.html">Encuesta de satisfacción</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div id="encuesta">
+            <h1>Encuesta de satisfacción</h1>      
+        </div>
+        <div class="bg-danger" id = "CEncuesta" style="display:none;">Faltan preguntas por completar.</div>
+        <form action="#" method="post">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>¿Ha podido conseguir todos los objetivos que le fueron propuestos interactuando con el sistema web? 
+                        <i class="material-icons" style="align-content:center;" title="1 es la peor calificación ya que no pudo conseguir ningún objetivo y 5 es la mejor
+                        calificación ya que pudo conseguir todos sus objetivos">information</i>
+                    </td>
+                    <td><input type="radio" name="pregunta1" id="pregunta1" required></td>
+                    <td><input type="radio" name="pregunta1" id="pregunta1" required></td>
+                    <td><input type="radio" name="pregunta1" id="pregunta1" required></td>
+                    <td><input type="radio" name="pregunta1" id="pregunta1" required></td>
+                    <td><input type="radio" name="pregunta1" id="pregunta1" required></td>
+                </tr>
+                <tr>
+                    <td>¿Ha tardado más tiempo del necesario en llevar a cabo las tareas que le fueron
+                        planteadas y en ocasiones se ha perdido dentro del sistema?
+                        <i class="material-icons" title="1 es la peor calificación ya que ha empleado excesivo tiempo y 5 es la mejor calificación
+                        ya que fue muy rápido">information</i>
+                    </td>
+                    <td><input type="radio" name="pregunta2" id="pregunta2" required></td>
+                    <td><input type="radio" name="pregunta2" id="pregunta2" required></td>
+                    <td><input type="radio" name="pregunta2" id="pregunta2" required></td>
+                    <td><input type="radio" name="pregunta2" id="pregunta2" required></td>
+                    <td><input type="radio" name="pregunta2" id="pregunta2" required></td>
+                </tr>
+                <tr>
+                    <td>¿Se siente satisfecho con la forma en que el sistema permite alcanzar los objetivos
+                        propuestos? 
+                        <i class="material-icons" title="1 es la peor calificación ya que no está nada satisfecho y 5 es la mejor calificación ya
+                        está totalmente satisfecho">information</i>
+                    </td>
+                    <td><input type="radio" name="pregunta3" id="pregunta3" required></td>
+                    <td><input type="radio" name="pregunta3" id="pregunta3" required></td>
+                    <td><input type="radio" name="pregunta3" id="pregunta3" required></td>
+                    <td><input type="radio" name="pregunta3" id="pregunta3" required></td>
+                    <td><input type="radio" name="pregunta3" id="pregunta3" required></td>
+                </tr>
+                <tr>
+                    <td>¿El sistema le transmite confianza ya que responde según se espera de él? 
+                        <i class="material-icons" title="1 es la peor calificación ya que no trasmite ninguna confianza y 5 es la mejor calificación
+                        ya que trasmite total confianza">information</i>
+                    </td>
+                    <td><input type="radio" name="pregunta4" id="pregunta4" required></td>
+                    <td><input type="radio" name="pregunta4" id="pregunta4" required></td>
+                    <td><input type="radio" name="pregunta4" id="pregunta4" required></td>
+                    <td><input type="radio" name="pregunta4" id="pregunta4" required></td>
+                    <td><input type="radio" name="pregunta4" id="pregunta4" required></td>
+                </tr>
+                <tr>
+                    <td> ¿Considera que el sistema es útil para conocer la empresa de desarrollo del software? 
+                        <i class="material-icons" title="1 es la peor calificación ya el resultado es totalmente inútil y 5 es la mejor calificación
+                        ya que es totalmente útil">information</i>
+                    </td>
+                    <td><input type="radio" name="pregunta5" id="pregunta5" required></td>
+                    <td><input type="radio" name="pregunta5" id="pregunta5" required></td>
+                    <td><input type="radio" name="pregunta5" id="pregunta5" required></td>
+                    <td><input type="radio" name="pregunta5" id="pregunta5" required></td>
+                    <td><input type="radio" name="pregunta5" id="pregunta5" required></td>
+                </tr>
+                <tr>
+                    <td>¿La interacción con el sistema se podría calificar de placentera o por el contrario es desagradable? 
+                        <i class="material-icons" title="1 es la peor calificación ya el resultado es totalmente desagradable y 5 es la mejor
+                        calificación ya que es totalmente placentera">information</i>
+                    </td>
+                    <td><input type="radio" name="pregunta6" id="pregunta6" required></td>
+                    <td><input type="radio" name="pregunta6" id="pregunta6" required></td>
+                    <td><input type="radio" name="pregunta6" id="pregunta6" required></td>
+                    <td><input type="radio" name="pregunta6" id="pregunta6" required></td>
+                    <td><input type="radio" name="pregunta6" id="pregunta6" required></td>
+                </tr>
+                <tr>
+                    <td>¿Se ha sentido cómodo interactuando con el dispositivo?
+                        <i class="material-icons" title="1 es la peor calificación ya el resultado es totalmente incomodo y 5 es la mejor
+                        calificación ya que es totalmente cómodo">information</i>
+                    </td>
+                    <td><input type="radio" name="pregunta7" id="pregunta7" required></td>
+                    <td><input type="radio" name="pregunta7" id="pregunta7" required></td>
+                    <td><input type="radio" name="pregunta7" id="pregunta7" required></td>
+                    <td><input type="radio" name="pregunta7" id="pregunta7" required></td>
+                    <td><input type="radio" name="pregunta7" id="pregunta7" required></td>
+                </tr>
+                <tr>
+                    <td>¿En algún momento ha tenido la sensación de que el sistema podía poner en riesgo algún aspecto económico o financiero?
+                        <i class="material-icons" title="1 es la peor calificación ya en todo momento tuvo esa sensación de peligro y 5 es la
+                        mejor calificación ya nunca tuvo esa sensación de peligro">information</i>
+                    </td>
+                    <td><input type="radio" name="pregunta8" id="pregunta8" required></td>
+                    <td><input type="radio" name="pregunta8" id="pregunta8" required></td>
+                    <td><input type="radio" name="pregunta8" id="pregunta8" required></td>
+                    <td><input type="radio" name="pregunta8" id="pregunta8" required></td>
+                    <td><input type="radio" name="pregunta8" id="pregunta8" required></td>
+                </tr>
+                <tr>
+                    <td>¿En algún momento ha tenido la sensación de que el sistema podía poner en riesgo algún aspecto relacionado con su salud o seguridad? 
+                        <i class="material-icons" title="1 es la peor calificación ya en todo momento tuvo esa sensación de peligro y 5 es la
+                        mejor calificación ya nunca tuvo esa sensación de peligro">information</i>
+                    </td>
+                    <td><input type="radio" name="pregunta9" id="pregunta9" required></td>
+                    <td><input type="radio" name="pregunta9" id="pregunta9" required></td>
+                    <td><input type="radio" name="pregunta9" id="pregunta9" required></td>
+                    <td><input type="radio" name="pregunta9" id="pregunta9" required></td>
+                    <td><input type="radio" name="pregunta9" id="pregunta9" required></td>
+                </tr>
+                <tr>
+                    <td>¿En algún momento ha tenido la sensación de que el sistema podía poner en riesgo algún aspecto relacionado con el medioambiente?
+                        <i class="material-icons" title="1 es la peor calificación ya en todo momento tuvo esa sensación de peligro y 5 es la
+                        mejor calificación ya nunca tuvo esa sensación de peligro">information</i>
+                    </td>
+                    <td><input type="radio" name="pregunta10" id="pregunta10" required></td>
+                    <td><input type="radio" name="pregunta10" id="pregunta10" required></td>
+                    <td><input type="radio" name="pregunta10" id="pregunta10" required></td>
+                    <td><input type="radio" name="pregunta10" id="pregunta10" required></td>
+                    <td><input type="radio" name="pregunta10" id="pregunta10" required></td>
+                </tr>
+                </tbody>
+            </table>
+            <input type="submit" class="btn btn-info" value="Enviar">
+        </form>
+    </div>
+    
+  </body>
+</html>

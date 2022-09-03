@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Estilos.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="Voces.js"></script>
+
+    <title> FitnessWorkOut: Encuesta</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="Index.html">FitnessWorkOut</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Casos de exito.html">Casos de éxito</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Encuesta de satisfaccion.html">Encuesta de satisfacción</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div>
+            <h1>Contacto</h1>      
+        </div>
+        <div class="contacto">
+            <form>
+                <div class="form-group"> 
+
+                    <label for="usr">Nombre <abbr title="Este campo es obligatorio" aria-label="required">*</abbr></label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>	<br>			
+                
+                    <label for="usr">Email <abbr title="Este campo es obligatorio" aria-label="required">*</abbr></label>
+                    <input type="email" class="form-control" id="email" name="email" required> <br>
+                
+                    <label for="usr">Teléfono <abbr title="Este campo es obligatorio" aria-label="required">*</abbr></label>
+                    <input type="tel" id="telefono" name="telefono" class="form-control" placeholder="123456789" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required> <br>
+                
+                    <label for="comment">Comentario <abbr title="Este campo es obligatorio" aria-label="required">*</abbr></label>
+                    <textarea class="form-control" rows="6" cols="30" id="comentario" name="comentario" required></textarea><br>
+                    
+                    <input type="submit" class="btn btn-info" value="Enviar">
+                </div>
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d374.15927510862775!2d-3.801231055294713!3d43.47128677076831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd494b082201c2df%3A0x3c98193ada9fe217!2sCafeter%C3%ADa%20Facultad%20de%20Ciencias%20UC!5e0!3m2!1ses!2ses!4v1651160620248!5m2!1ses!2ses" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>   
+    </div>
+    
+  </body>
+</html>
